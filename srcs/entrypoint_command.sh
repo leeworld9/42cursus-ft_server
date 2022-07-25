@@ -1,5 +1,8 @@
 #!/bin/bash
 
+tar -xvf phpMyAdmin.tar
+tar -xvf wordpress.tar
+
 mv /root/wordpress /var/www/html/
 chown www-data.www-data /var/www/html/wordpress/* -R
 

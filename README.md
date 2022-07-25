@@ -20,6 +20,9 @@
     Image Build   : docker build -t debian:buster .
     Container Run : docker run -p 80:80 -p 443:443 -ti [IMAGE ID]
 
+    phpMyAdmin Access URL : https://localhost/phpMyAdmin
+    WordPress Access URL : https://localhost/wordpress
+
     ## How to use the terminal
     ## 1. ctrl+p -> ctrl+q
     ## 2. docker exec -it [CONTAINER ID] /bin/bash
